@@ -39,6 +39,8 @@ gamma=2.0
 delta=0.025
 eta=1
 big_A=(1.0-beta)/(psi*beta)
+theta = np.array([0.9, 0.95, 1.0, 1.05, 1.1])
+probabilities = np.array([0.2, 0.2, 0.2, 0.2, 0.2])
 
 # Ranges For States
 range_cube=1 # range of [0..1]^d in 1D

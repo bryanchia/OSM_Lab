@@ -5,7 +5,7 @@
 #SBATCH --job-name=hello
 
 # send output to hello-world.out
-#SBATCH --output=hello-world.out
+#SBATCH --output=hello-world_example.out
 
 # receive an email when job starts, ends, and fails
 #SBATCH --mail-type=BEGIN,END,DAIL
